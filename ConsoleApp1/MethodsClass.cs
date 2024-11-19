@@ -21,4 +21,31 @@ public class MethodsClass
 
         return tax;
     }
+    
+    //Calculating Membership price method
+
+    public static int GymMembershipPrice(int age, bool value)
+    {
+        var membershipPrice = 0;
+        const int premiumPrice = 300;
+        
+        if ((age <= 19 || age >= 64) && value==false)
+        {
+            membershipPrice += 2200;
+        }
+        else if ((age <= 19 || age >= 64) && value)
+        {
+            membershipPrice += 2200 + premiumPrice;
+        }
+        else if (value )
+        {
+            membershipPrice += 3100 + premiumPrice;
+        }
+        else
+        {
+            membershipPrice += 3100;
+        }
+
+        return membershipPrice;
+    }
 }
