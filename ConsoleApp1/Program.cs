@@ -44,6 +44,18 @@ Console.WriteLine("Multiplication a * b : " + MethodsClass.Calculator('*', 6.32,
 Console.WriteLine("Division a / b : " + MethodsClass.Calculator('/', 6.32, 50.00));
 Console.WriteLine("");
 
+//Assignment # 4
+Console.WriteLine("-------------------------------------------------");
+Console.WriteLine("Assignment 4");
+Console.WriteLine("");
+
+//Test cases
+Console.WriteLine("Help : " + MethodsClass.Menu("help"));
+Console.WriteLine("Add : " + MethodsClass.Menu("add"));
+Console.WriteLine("Delete : " + MethodsClass.Menu("delete"));
+Console.WriteLine("Edit : " + MethodsClass.Menu("edit"));
+Console.WriteLine("Find : " + MethodsClass.Menu("find"));
+Console.WriteLine("List : " + MethodsClass.Menu("list"));
 
 
 

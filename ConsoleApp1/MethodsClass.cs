@@ -71,5 +71,34 @@ public class MethodsClass
         }
         return result;
     }
+    
+    //Assignment # 4
+
+    public static string Menu(string value)
+    {
+        string result = "";
+        switch (value)
+        {
+            case "Help":
+                result += "Thanks for seeking HELP, we will contact you.";
+                break;
+            case "add":
+                result += "You have added a new product!";
+                break;
+            case "delete":
+                result += "You have deleted a new product!";
+                break;
+            case "edit":
+                result += "You have edited a new product name!";
+                break;
+            case "find":
+                result += "You have searched for a product!";
+                break;
+            case "list":
+                result += "You have listed products!";
+                break;
+        }
+        return result;
+    }
 }
 
