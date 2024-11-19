@@ -48,4 +48,28 @@ public class MethodsClass
 
         return membershipPrice;
     }
+    
+    // Calculator Method
+
+    public static double Calculator(char operation, double a, double b)
+    {
+        var result = 0.00;
+        switch (operation)
+        {
+            case '+':
+                result = a + b;
+                break;
+            case '-':
+                result = a - b;
+                break;
+            case '*':
+                result = a * b;
+                break;
+            case '/':
+                result = a / b;
+                break;
+        }
+        return result;
+    }
 }
+

@@ -32,6 +32,18 @@ Console.WriteLine("");
 Console.WriteLine("All other customers >19 and < 64 and Don't want Premium : " + MethodsClass.GymMembershipPrice(30, false));
 Console.WriteLine("All other customers >19 and < 64 and want Premium : " + MethodsClass.GymMembershipPrice(30, true));
 
+//Assignment # 3
+Console.WriteLine("---------------------------------------------");
+Console.WriteLine("Assignment 3");
+Console.WriteLine("");
+
+//Test cases
+Console.WriteLine("Addition a + b : " + MethodsClass.Calculator('+', 6.32, 50.00));
+Console.WriteLine("Substraction a - b : " + MethodsClass.Calculator('-', 6.32, 50.00));
+Console.WriteLine("Multiplication a * b : " + MethodsClass.Calculator('*', 6.32, 50.00));
+Console.WriteLine("Division a / b : " + MethodsClass.Calculator('/', 6.32, 50.00));
+Console.WriteLine("");
+
 
 
 
